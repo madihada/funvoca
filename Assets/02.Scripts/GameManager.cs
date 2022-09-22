@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public GameObject apple;
     public string input_answer;
 
+    //파이썬 스크립트에서 결과값 저장할 변수
+    public string pythonResult;
+
     // 사과몬스터가 출현할 위치를 저장할 List 타입 변수
     public List<Transform> points = new List<Transform>();
 
